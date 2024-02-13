@@ -1,4 +1,6 @@
-##This is a bit of code you can run in Powershell to create your SNHU Course folders easily. Change your course name or module name to suit your needs. I also included a screenshots folder which can be removed if desired. 
+##This is a bit of code you can run in Powershell to create your SNHU Course folders easily. 
+Change your course name or module name to suit your needs. I also included a screenshots 
+folder which can be removed if desired. 
 
 
 
