@@ -10,7 +10,10 @@ md SNHU
 cd .\SNHU\
 MD CS-210
 cd .\CS-210\
+#with screenshots folder
 for ($i=1;$i -le 8;$i++){MD ".\Module 0$i"; MD ".\Module 0$i\Screenshots"} 
+#with screenshots and resources folders
+#for ($i=1;$i -le 8;$i++){MD ".\Module 0$i"; MD ".\Module 0$i\Screenshots"; MD ".\Module 0$i\resources"}
 
 ## or you can run it without screenshots folder:
 for ($i=1;$i -le 8;$i++){MD ".\Module 0$i"} 
