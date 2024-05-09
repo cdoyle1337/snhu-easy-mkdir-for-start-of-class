@@ -1,11 +1,13 @@
 ##Here are a few commands you can run via Powershell that will help you more easily establish a structured folder layout to home your SNHU Course related documents more easily. Change the course name or module name to suit your needs. There are Screenshots and Resources(references) folders, and if you create a universal Discussion_template.docx and/or Notes_template.docx document files, those can be copied in place and ready to go also.
 
-####
+####Part 1 - Make Folders
 #Start NEW at the top,  OR  go to RETURNING
+
+####Part 2 - Make Discussion and Notes Template copies
 #See the last section for Discussion/Notes REPLACEMENT copies only
 
 
-##
+####Part 1 - Make Folders
 ##Start (NEW) from the beginning here (If you don't have any organization heirarchy currently)
 
 #Make sure you have some folder structure established (if you're just starting to get your folders organised, consider these next few commands (Most people won't need to establish these commands every semester, they are here for context more than anything).
@@ -38,6 +40,7 @@ for ($i=1;$i -le 8;$i++){MD ".\Module 0$i"; MD ".\Module 0$i\Screenshots"; MD ".
 
 #TODO: Incomplete: cp -Confirm only Prompts for confirmation before running the cmdlet, doesn't check if already exists. (Remove -Confirm if you don't want to push it each time)
 
+####Part 2 - Make Discussion and Notes Template copies
 ##REPLACEMENT Discussion/Notes template copies - If you have existing files in the folders and just need to update or replace the template files: 
 #Get into the correct folder again
 cd .\Documents\SNHU\CS-210
